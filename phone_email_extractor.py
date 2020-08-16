@@ -1,5 +1,5 @@
 #! python3
-# phoneAndEmail.py - Finds phone numbers and email addresses on the clipboard.
+# Extracts email addresses and phone numbers that have been copied on the clipboard.
 
 import pyperclip, re
 
