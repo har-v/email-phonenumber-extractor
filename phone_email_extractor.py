@@ -1,7 +1,8 @@
 #! python3
 # Extracts email addresses and phone numbers that have been copied on the clipboard.
 
-import pyperclip, re
+import pyperclip
+import re
 
 # Phone number regex
 phoneRegex = re.compile(r'''(
